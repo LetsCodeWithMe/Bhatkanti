@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking Section</title>
+    <style>
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.services{
+  background: #f1f1f1;
+  text-align: center;
+}
+.services h1{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #3498db;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.service:hover{
+  background: #ddd;
+}
+.service i{
+  color: #3498db;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.service h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+.service h2 a{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  color: black;
+}
+.service p{
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .service{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service{
+    width: 100%;
+  }
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="services">
+     
+      <h1>BOOKING SECTION</h1>
+     
+      <div class="cen">
+        <div class="service">
+          <img src="images/hotel.png">
+          <i class="fas fa-anchor"></i>
+          <h2><a href="hotel.html">Hotel Booking</a></h2>
+          <p>Over 900,000 Hotels Worldwide. Book Now, Pay When You Stay. Register Online. List Your Property. View Articles. Sign Up For Deals. Become An Affiliate. Highlights: Customer Service Available, Safety Resource Center.</p>
+        </div>
+
+        <div class="service">
+          <img src="images/rail.png">
+          <i class="fab fa-android"></i>
+          <h2><a href="train.html">Train Booking</a></h2>
+          <p>A train ticket is a ticket issued by a railway operator that enables the bearer to travel on the operator's network or a partner's network. Tickets can authorize the bearer to travel a set itinerary at a specific time.</p>
+        </div>
+
+        <div class="service">
+          <img src="images/plane.png">
+          <i class="fab fa-angellist"></i>
+          <h2><a href="travelbooking.html">Flight Booking</a></h2>
+          <p>Find low prices on flights with Tripadvisor. Fun Things to Do. Millions of hotel reviews. Hidden Gems. Candid traveller photos. Tours, Attractions + More. Amazing Experiences</p>
+        </div>
+
+       
+      </div>
+    </div>
+  </body>
+</html>
